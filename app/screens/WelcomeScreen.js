@@ -28,11 +28,6 @@ const styles = StyleSheet.create({
     height: 70,
     backgroundColor: "#fc5c65",
   },
-  registerButton: {
-    width: "100%",
-    height: 70,
-    backgroundColor: "#4ECDC4",
-  },
   logo: {
     width: 100,
     height: 100,
@@ -41,6 +36,11 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 50,
     alignItems: "center",
+  },
+  registerButton: {
+    width: "100%",
+    height: 70,
+    backgroundColor: "#4ECDC4",
   },
 });
 
