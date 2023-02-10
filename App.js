@@ -22,9 +22,4 @@ const styles = StyleSheet.create({
     paddingTop: 50,
     backgroundColor: "#f4f4f4",
   },
-  card: {
-    title: "Red jacket for sale!",
-    subTitle: "$100",
-    image: require("./app/assets/jacket.jpg"),
-  },
 });
