@@ -2,6 +2,7 @@ import { Image, SafeAreaView, StyleSheet, View } from "react-native";
 import AppButton from "./app/components/AppButton";
 import Card from "./app/components/Card";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import MessagesScreen from "./app/screens/MessagesScreen";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 
@@ -19,7 +20,8 @@ export default function App() {
     //   subTitle="$100"
     //   image={require("./app/assets/jacket.jpg")}
     // />
-    <ViewImageScreen></ViewImageScreen>
+    // <ViewImageScreen></ViewImageScreen>
+    <MessagesScreen />
   );
 }
 
